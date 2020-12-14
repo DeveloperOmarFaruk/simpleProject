@@ -1,0 +1,29 @@
+body {
+    background: white;
+}
+
+.input {
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+.table thead {
+    background: #222;
+    color: white;
+}
+
+.table th:nth-child(1) {
+    width: 85%;
+}
+
+.table td:nth-child(2) {
+    width: 100%;
+}
+
+.table td {
+    padding: 5px;
+}
+
+table tbody tr: nth-child(2n+1) {
+    background: #f4f4f4;
+}
